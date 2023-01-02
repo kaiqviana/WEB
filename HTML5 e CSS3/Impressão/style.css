@@ -1,0 +1,24 @@
+@media print{
+    * {
+        font-family: poppins !important;
+        margin: 50px 50px !important;
+        background: transparent !important;
+    }
+    
+    h1{
+        text-align: center !important;
+    }
+
+    p{
+        border: 2px solid black !important;
+        padding: 20px !important;
+        text-align: justify !important;
+        page-break-inside: avoid;
+    }
+    
+    a[href]::after{ 
+        color: black;
+        text-decoration: underline !important;
+        content: ' ('attr(href)')';
+    } 
+}

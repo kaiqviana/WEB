@@ -1,0 +1,79 @@
+.container{
+    margin: 0 auto;/*o "0" representa margem superior e inferior e o "auto" 
+    vai centralizat o elemnto na página*/
+    width: 960px; /*fixa a largura que vai se adequando de acordo com a tela*/
+}
+
+/*Ao adicionar modificações a tag body no css, você está padronizando todo o
+ a sua estrutura*/
+
+body{
+    background:#FFF1D6 url(https://lucasmazza.website/htmlcss-exemplos/exemplos/01/images/noise.png);
+    /*Foi adicionado uma cor ao fundo e uma imagem de ruído*/
+    font-family: 'Lucinda Sans Unicode', Verdana, sans-serif;
+    line-height: 1.6;/*representa a altura da linha, caso a altura da 
+    fonte seja alterada a linha tambem mudará (não estamos alterando a 
+    altura da fonte)*/
+}
+h1 a{
+    color: #7E9F19;/*Muda a cor do h1*/
+    text-decoration:none;/*Tira o sublinhado do link*/
+}
+h1 a:hover{/*Nesse caso inverte a cor para quando o mouse for colocado 
+    em cima do h1, a propriedade "hover" faz isso*/
+    background-color: #7E9F19 ;
+    color:#fff;
+}
+article{
+    background-color: #FFF;
+    border-color: #CCC #999 #999 #CCC;/*Muda a cor das bordas*/
+    border: 1px solid #CCC;/*Cor da borda*/
+    margin-bottom: 20px;/*Adiciona o espaçamento entre uma lista e outra 
+    do lado de fora das bordas criadas*/
+    padding: 10px;/*Adicona um espaçamento nos lados dos elementos da lista,
+    que no caso são as palavras*/
+}
+article h2{
+    border-bottom: 1px dashed #7E9F19;/*Renderiza a borda de baixo*/
+    margin:0;/*Tira o espaçamento entre a parte superior e borda*/
+}
+article a{
+    color:#2CBBA7;
+    font-weight: bold;
+}
+article img{
+    width: 256px;
+    height: 256px;
+    border: 1px solid #7E9F19;
+    float: left;/*Um elemento vai ser retirado do seu fluxo normal e
+    colocado a esquerda ou direta do seu container*/
+    margin: 10px 10px 0 0;
+    padding: 2px;
+
+}
+.clear{
+    clear: both;    
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+}
+aside{
+    background-color: #FFFBE4;
+    border: 1px solid #c9bc8f;
+    float: right ;
+    padding:10px;
+    width: 260px;
+
+}
+aside h3{
+    font-size: 14px;
+    margin-top: 0;    
+}
+aside ol{
+    font-size: 12px;
+}
+section{
+    float: left;
+    width: 660px;
+}

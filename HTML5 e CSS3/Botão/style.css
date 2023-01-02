@@ -1,0 +1,20 @@
+.button{
+    background-color: #9999;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none; 
+}
+
+.primary-button{
+    background-color: #389739;
+}
+
+.big-button{
+    font-size: 1.1em;;
+}
+
+.small-button{
+    font-size: 0.9em;
+}

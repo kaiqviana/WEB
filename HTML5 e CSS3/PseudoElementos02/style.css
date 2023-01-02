@@ -1,0 +1,22 @@
+.tip::before{
+    content: '\261E';
+    margin-right: 10px;
+}
+
+blockquote{
+    color:#444;
+    font-style: italic;
+}
+
+blockquote::before, blockquote::after{
+    color:#000;
+    font-size: 3em;
+}
+
+blockquote::before{
+    content:'\201C';
+}
+
+blockquote::after{
+    content: '\201D';
+}
