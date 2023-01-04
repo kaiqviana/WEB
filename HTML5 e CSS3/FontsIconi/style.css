@@ -1,0 +1,42 @@
+@font-face {
+    font-family: iconic;
+    font-weight: normal;
+    font-style: normal;
+    src: url(Iconic/Iconic-Bold-trial.ttf);
+}
+
+.icon-next::after{
+    content: '\2192'; /*Isso aqui é o icone*/
+    font-family: iconic;
+    margin-left: 10px;
+}
+
+.icon-next{
+    font-family: iconic;
+}
+
+h1.icon-next{
+    color:blue;
+}
+
+.icon-ok{
+    font-family: iconic;
+    color:green;
+}
+
+.icon-ok::before{
+    content: '\2714'; /*Isso aqui é o icone*/
+    font-family: iconic;
+    margin-right: 10px;
+}
+
+.icon-invalid{
+    font-family: iconic;
+    color:red
+}
+
+.icon-invalid:before{
+    content: '\2718'; /*Isso aqui é o icone*/
+    font-family: iconic;
+    margin-right: 10px;
+}

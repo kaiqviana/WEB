@@ -1,9 +1,0 @@
-@font-face {
-    font-family: poppins;
-    font-style: italic;
-    src: local('poppins') url(https://fonts.google.com/knowledge) format('woff');
-}
-
-h1{
-    font-family: 'poppins','montserrat';
-}
