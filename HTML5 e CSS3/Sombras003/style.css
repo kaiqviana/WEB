@@ -1,0 +1,25 @@
+.nav{
+    background-color: #b9522d;
+    height: 30px;
+    list-style:none;
+    padding: 0;
+    width: 210px;
+}
+
+.nav li{
+    float: left;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 70px;
+}
+
+.nav a{
+    color:white;
+}
+
+.nav .current{
+    background-color: #a64a28;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+}

@@ -1,0 +1,19 @@
+.status{
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+}
+
+.failed{
+    background-color: red;
+}
+
+.shipped{
+    background-color: green;
+}
+
+.processing{
+    background-color: yellow;
+}
