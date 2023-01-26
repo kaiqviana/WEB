@@ -1,0 +1,7 @@
+p{
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 1px solid #000;
+    font-size: 0.9em;
+    width: 500px;
+}

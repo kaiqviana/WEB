@@ -1,0 +1,18 @@
+.box-one{
+    background-color: PapayaWhip;
+    height: 400px;
+    width: 400px;
+    margin-top: 20vh;
+    position:relative;
+    top: 50px;
+    left: 50px;
+}
+
+.box-two{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}

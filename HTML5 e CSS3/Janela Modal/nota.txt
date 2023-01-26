@@ -1,0 +1,3 @@
+Fiz essa janela utilizando o JQuery
+não deu muito certo, essa nota servirá
+para que eu me lembre mais tarde como consertar!

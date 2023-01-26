@@ -1,0 +1,29 @@
+
+/*DISPLAY*/
+span{
+    background-color: brown;
+    color: white;
+    display: inline-block;
+}
+
+/*FLOAT*/
+h2{
+    float: left;
+    margin:0 20px 20px 0;
+}
+
+h4{
+    margin-top: 5px;
+}
+
+.premio{
+    clear: both;
+}
+
+/*FLOAT PART 2*/
+img{
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    height: 250px;
+}
