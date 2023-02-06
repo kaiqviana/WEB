@@ -1,0 +1,53 @@
+form{
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+label{
+    display:block;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid #ccc;
+    box-shadow: inset 2px 2px 2px #eee;
+    font-size: 0.9em;
+    padding: 2px 5px;
+}
+
+/*OS FORMULÁRIOS ESTÃO UM EM CIMA DO OUTRO PARA PODERMOS
+TRANSITAR ENTRE UM E OUTRO*/
+.container{
+    height: 300px;
+    position: relative;
+    width: 200px;
+    /*Para	determinar a "profundidade" das nossas páginas,
+    precisamos	usar a propriedade perspective*/
+    perspective: 500px;
+}
+
+.card{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.card section{
+    backface-visibility: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.signup{
+    transform: rotateY(180deg);
+}
+
+/*CSS do FLIPPED*/
+.card.flipped{
+    transform: rotateY(180deg); 
+}

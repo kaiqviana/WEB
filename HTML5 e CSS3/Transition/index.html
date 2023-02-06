@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post" action="">
+        <p>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" autofocus>
+            <span class="hint">por exemplo, seunome@gmail.com.</span>
+            <span class="error">Preencha todos os campos</span>
+        </p>
+        <p>
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject">
+            <span class="hint">
+                Nos diga qual seu problema
+            </span>
+            <span class="error">Preencha todos os campos</span>
+        </p>
+        <p>
+            <label for="content">Mensagem:</label>
+            <textarea id="content"></textarea>
+            <span class="hint">
+                Escreva a sua mensagem, em ate 500 caracteres.
+            </span>
+            <span class="error">Preencha todos os campos</span>
+        </p>
+
+        <button>Enviar mensagem</button>
+    </form>
+</body>
+</html>
